@@ -1,0 +1,9 @@
+
+tbody tr:nth-child(n+1) {
+    cursor: pointer;
+    transition: .3s;
+}
+
+tbody tr:nth-child(n+1):hover {
+    background: rgba(2, 130, 249, 0.25);
+}
